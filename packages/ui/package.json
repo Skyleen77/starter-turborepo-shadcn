@@ -14,7 +14,7 @@
     "eslint": "latest",
     "eslint-config-custom": "workspace:*",
     "postcss": "latest",
-    "react": "^latest",
+    "react": "latest",
     "tailwindcss": "latest",
     "tsconfig": "workspace:*",
     "typescript": "latest"
