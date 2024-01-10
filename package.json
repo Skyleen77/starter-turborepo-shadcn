@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-shadcn-ui",
+  "name": "starter-turborepo-shadcn",
   "version": "1.0.0",
   "private": true,
   "scripts": {
