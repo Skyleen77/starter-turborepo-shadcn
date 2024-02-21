@@ -1,5 +1,5 @@
 {
-  "name": "form-builder",
+  "name": "starter-turborepo-shadcn",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,14 +8,15 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "ui:add": "pnpm --filter ui ui:add",
-    "app:dev": "pnpm --filter app dev"
+    "docs:dev": "pnpm --filter docs dev",
+    "web:dev": "pnpm --filter web dev"
   },
   "devDependencies": {
-    "@turbo/gen": "^1.11.3",
-    "eslint": "^8.56.0",
+    "@turbo/gen": "latest",
+    "eslint": "latest",
     "eslint-config-custom": "workspace:*",
     "prettier": "^3.1.1",
-    "turbo": "^1.10.3"
+    "turbo": "latest"
   },
-  "packageManager": "pnpm@8.15.3"
+  "packageManager": "pnpm@8.9.0"
 }

@@ -19,8 +19,7 @@
       "@/*": ["./*"],
       "@ui/*": ["../../packages/ui/*"],
       "@ui/components/*": ["../../packages/ui/components/ui/*"],
-      "@ui/components/ui/*": ["../../packages/ui/components/ui/*"],
-      "@ui/components/global/*": ["../../packages/ui/components/global/*"]
+      "@ui/components/ui/*": ["../../packages/ui/components/ui/*"]
     }
   },
   "include": ["src", "next-env.d.ts"],
